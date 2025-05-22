@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analizar Notas</title>
+</head>
+<body>
+    <h1>Analizar Notas del Alumno</h1>
+
+    <!-- Campos para que el usuario ingrese las 5 notas -->
+    <label for="nota1">Nota 1:</label>
+    <input type="number" id="nota1" min="0" max="10" step="0.1"><br><br>
+
+    <label for="nota2">Nota 2:</label>
+    <input type="number" id="nota2" min="0" max="10" step="0.1"><br><br>
+
+    <label for="nota3">Nota 3:</label>
+    <input type="number" id="nota3" min="0" max="10" step="0.1"><br><br>
+
+    <label for="nota4">Nota 4:</label>
+    <input type="number" id="nota4" min="0" max="10" step="0.1"><br><br>
+
+    <label for="nota5">Nota 5:</label>
+    <input type="number" id="nota5" min="0" max="10" step="0.1"><br><br>
+
+    <!-- Botón para procesar -->
+    <button onclick="analizarNotas()">Analizar Notas</button>
+    
+    <!-- Mostrar resultados -->
+    <h3>Resumen:</h3>
+    <p id="resultado"></p>
+
+    <!-- Vincular archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
